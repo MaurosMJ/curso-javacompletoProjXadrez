@@ -76,7 +76,7 @@ public class Pawn extends ChessPiece {
 			if (getBoard().positionExists(p) && isThereOpponentPiece(p)) {
 				mat[p.getRow()][p.getColumn()] = true;
 			}
-			
+
 			// #SpecialMove enPassant (Black)
 			if (position.getRow() == 4) {
 				Position left = new Position(position.getRow(), position.getColumn() - 1);
