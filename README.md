@@ -22,7 +22,8 @@ Section 16. Project: Chess Game System
 
 Examples:
 
-Possible Moves of a Piece:
+### Possible Moves of a Piece:  
+
 <div style="text-align:center;">
     <img src="https://imgur.com/Y5AdB7B.png" alt="Descrição da imagem">
 </div>
@@ -30,17 +31,19 @@ Possible Moves of a Piece:
     <img src="https://imgur.com/zTYAQtB.png" alt="Descrição da imagem">
 </div>
 
-Castling:
+### Castling:  
+
 <div style="text-align:center;">
     <img src="https://imgur.com/SU0Z8tk.png" alt="Descrição da imagem">
 </div>
 
-En Passant:
+### En Passant:  
+
 <div style="text-align:center;">
     <img src="https://imgur.com/ajR1Rgv.png" alt="Descrição da imagem">
 </div>
 
-Promotion:
+### Promotion:
 <div style="text-align:center;">
     <img src="https://imgur.com/EL8UuIi.png" alt="Descrição da imagem">
 </div>
