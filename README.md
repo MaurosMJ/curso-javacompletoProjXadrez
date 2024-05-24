@@ -24,25 +24,25 @@ Examples:
 
 Possible Moves of a Piece:
 <div style="text-align:center;">
-    <img src="https://imgur.com/Y5AdB7B.png" alt="Descrição da imagem" width="100" height="100">
+    <img src="https://imgur.com/Y5AdB7B.png" alt="Descrição da imagem">
 </div>
 <div style="text-align:center;">
-    <img src="https://imgur.com/zTYAQtB.png" alt="Descrição da imagem" width="100" height="100">
+    <img src="https://imgur.com/zTYAQtB.png" alt="Descrição da imagem">
 </div>
 
 Castling:
 <div style="text-align:center;">
-    <img src="https://imgur.com/SU0Z8tk.png" alt="Descrição da imagem" width="100" height="100">
+    <img src="https://imgur.com/SU0Z8tk.png" alt="Descrição da imagem">
 </div>
 
 En Passant:
 <div style="text-align:center;">
-    <img src="https://imgur.com/ajR1Rgv.png" alt="Descrição da imagem" width="100" height="100">
+    <img src="https://imgur.com/ajR1Rgv.png" alt="Descrição da imagem">
 </div>
 
 Promotion:
 <div style="text-align:center;">
-    <img src="https://imgur.com/EL8UuIi.png" alt="Descrição da imagem" width="100" height="100">
+    <img src="https://imgur.com/EL8UuIi.png" alt="Descrição da imagem">
 </div>
 
 ## Worknotes & Commits:
