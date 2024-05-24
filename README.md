@@ -4,7 +4,6 @@
 <div style="text-align:center;">
     <img src="https://imgur.com/D8t3Umu.png" alt="Descrição da imagem" width="100" height="100">
 </div>
-
 This repository contains a chess game project created with the help of Professor Nélio Alves in the course 'Java Complete Object-Oriented Programming + Projects'. As the professor explained and taught, I replicated and implemented the logic in my project and published it here on GitHub to improve my learning.
 
 The objective of the project is to practically apply all the knowledge taught in the course so far. This stage of the course had about 6 hours of video lessons; however, it took me around 10 hours to complete due to the need to perform tests, review code, fix implementation errors, and sometimes rewatch the videos for better understanding.
@@ -24,17 +23,27 @@ Section 16. Project: Chess Game System
 Examples:
 
 Possible Moves of a Piece:
-<img>
-<img>
+<div style="text-align:center;">
+    <img src="https://imgur.com/Y5AdB7B.png" alt="Descrição da imagem" width="100" height="100">
+</div>
+<div style="text-align:center;">
+    <img src="https://imgur.com/zTYAQtB.png" alt="Descrição da imagem" width="100" height="100">
+</div>
 
 Castling:
-<img>
+<div style="text-align:center;">
+    <img src="https://imgur.com/SU0Z8tk.png" alt="Descrição da imagem" width="100" height="100">
+</div>
 
 En Passant:
-<img>
+<div style="text-align:center;">
+    <img src="https://imgur.com/ajR1Rgv.png" alt="Descrição da imagem" width="100" height="100">
+</div>
 
 Promotion:
-<img>
+<div style="text-align:center;">
+    <img src="https://imgur.com/EL8UuIi.png" alt="Descrição da imagem" width="100" height="100">
+</div>
 
 ## Worknotes & Commits:
 
