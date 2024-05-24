@@ -1,6 +1,9 @@
 # Chess Game Project
 
 ###### @Author: MaurosMJ
+<div style="text-align:center;">
+    <img src="https://imgur.com/D8t3Umu.png" alt="Descrição da imagem" width="100" height="100">
+</div>
 
 This repository contains a chess game project created with the help of Professor Nélio Alves in the course 'Java Complete Object-Oriented Programming + Projects'. As the professor explained and taught, I replicated and implemented the logic in my project and published it here on GitHub to improve my learning.
 
