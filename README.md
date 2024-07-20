@@ -5,13 +5,13 @@
     <img src="https://imgur.com/D8t3Umu.png" alt="Chess Game Logo" width="100" height="100">
 </div>
 
-This repository contains a chess game project developed in Java. This project was created with guidance from Professor Nélio Alves as part of the course "Java Complete Object-Oriented Programming + Projects." The project replicates and implements the concepts taught in the course and is published here on GitHub to enhance my learning experience.
+This repository contains a Java-based chess game project. It features a complete implementation of the classic chess game, including functionalities such as move validation, game state management, and an interactive user interface. The project is designed to showcase the application of Java programming concepts.
 
 The goal of this project is to practically apply the knowledge acquired throughout the course. Although the course section covering this project included approximately 6 hours of video lessons, it took me around 10 hours to complete due to additional testing, code review, debugging, and occasionally rewatching the videos for a better understanding.
 
 ##### More Information:
-Course Link: [Udemy Java Complete Course](https://www.udemy.com/course/java-curso-completo)  
-Section 16: Project - Chess Game System
+**Course Link:** [Udemy Java Complete Course](https://www.udemy.com/course/java-curso-completo)  
+**Section 16:** Project - Chess Game System
 
 ## Table of Contents
 
