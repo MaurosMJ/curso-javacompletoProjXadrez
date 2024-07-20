@@ -215,4 +215,4 @@ A special move for pawns where they capture an opponent's pawn that moved two sq
 When a pawn reaches the last rank, it is promoted to any other piece (usually a queen).
 
 ## Credits:
-- This repository is maintained by MaurosMJ. The Projects are based on the 'Java COMPLETO Programação Orientada a Objetos + Projetos' course.
+This repository is maintained by [MaurosMJ](https://github.com/MaurosMJ). The Projects are based on the 'Java COMPLETO Programação Orientada a Objetos + Projetos' course.
