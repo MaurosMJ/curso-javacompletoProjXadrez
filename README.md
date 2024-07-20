@@ -2,21 +2,23 @@
 
 ###### @Author: MaurosMJ
 <div style="text-align:center;">
-    <img src="https://imgur.com/D8t3Umu.png" alt="Descrição da imagem" width="100" height="100">
+    <img src="https://imgur.com/D8t3Umu.png" alt="Chess Game Logo" width="100" height="100">
 </div>
-This repository contains a chess game project created with the help of Professor Nélio Alves in the course 'Java Complete Object-Oriented Programming + Projects'. As the professor explained and taught, I replicated and implemented the logic in my project and published it here on GitHub to improve my learning.
 
-The objective of the project is to practically apply all the knowledge taught in the course so far. This stage of the course had about 6 hours of video lessons; however, it took me around 10 hours to complete due to the need to perform tests, review code, fix implementation errors, and sometimes rewatch the videos for better understanding.
+This repository contains a chess game project developed in Java. This project was created with guidance from Professor Nélio Alves as part of the course "Java Complete Object-Oriented Programming + Projects." The project replicates and implements the concepts taught in the course and is published here on GitHub to enhance my learning experience.
 
-##### More information:
-Course Link: [Link](https://www.udemy.com/course/java-curso-completo)  
-Section 16. Project: Chess Game System
+The goal of this project is to practically apply the knowledge acquired throughout the course. Although the course section covering this project included approximately 6 hours of video lessons, it took me around 10 hours to complete due to additional testing, code review, debugging, and occasionally rewatching the videos for a better understanding.
 
-## Index
+##### More Information:
+Course Link: [Udemy Java Complete Course](https://www.udemy.com/course/java-curso-completo)  
+Section 16: Project - Chess Game System
 
-- [Architecture](#architecture-1)
-- [Worknotes & Commits](#Worknotes&Commits)
-- [Credits](#Credits)
+## Table of Contents
+
+- [Architecture](#architecture)
+- [Worknotes & Commits](#worknotes--commits)
+- [Special Moves](#special-moves)
+- [Credits](#credits)
 
 ## Architecture:
 
@@ -25,304 +27,192 @@ Examples:
 ### Possible Moves of a Piece:  
 
 <div style="text-align:center;">
-    <img src="https://imgur.com/Y5AdB7B.png" alt="Descrição da imagem">
+    <img src="https://imgur.com/Y5AdB7B.png" alt="Possible Moves of a Piece">
 </div>
 <div style="text-align:center;">
-    <img src="https://imgur.com/zTYAQtB.png" alt="Descrição da imagem">
+    <img src="https://imgur.com/zTYAQtB.png" alt="Possible Moves of a Piece">
 </div>
 
 ### Castling:  
 
 <div style="text-align:center;">
-    <img src="https://imgur.com/SU0Z8tk.png" alt="Descrição da imagem">
+    <img src="https://imgur.com/SU0Z8tk.png" alt="Castling">
 </div>
 
 ### En Passant:  
 
 <div style="text-align:center;">
-    <img src="https://imgur.com/ajR1Rgv.png" alt="Descrição da imagem">
+    <img src="https://imgur.com/ajR1Rgv.png" alt="En Passant">
 </div>
 
 ### Promotion:
 <div style="text-align:center;">
-    <img src="https://imgur.com/EL8UuIi.png" alt="Descrição da imagem">
+    <img src="https://imgur.com/EL8UuIi.png" alt="Promotion">
 </div>
 
 ## Worknotes & Commits:
 
-##### Worknote #1 - First Class Position
+##### Worknote #1 - Initial Class Position
 Commit hash: [f70b44743aa81591d9a16cf8627ddc8ac040d1fa](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/f70b44743aa81591d9a16cf8627ddc8ac040d1fa)  
 Checklist:
 * Class Position [public]
 * OOP Topics:
-* Encapsulation
-* Constructors
-* ToString (Object / overriding)
+  * Encapsulation
+  * Constructors
+  * `toString()` (Object / overriding)
 
-##### Worknote #2 - Starting to implement Board and Piece
+##### Worknote #2 - Implementing Board and Piece
 Commit hash: [5b00bb0e9d4aa82676cc80d8bec2d71c7fe1945d](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/5b00bb0e9d4aa82676cc80d8bec2d71c7fe1945d)  
 Checklist:
 * Classes Piece, Board [public]
 * OOP Topics:
-* Associations
-* Encapsulation / Access Modifiers
+  * Associations
+  * Encapsulation / Access Modifiers
 * Data Structures Topics:
-* Matrix
+  * Matrix
 
-##### Worknote #3 - Chess layer and printing the board
+##### Worknote #3 - Chess Layer and Board Printing
 Commit hash: [5d057d827a344dc7400dfd6cfa20df13c809db63](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/5d057d827a344dc7400dfd6cfa20df13c809db63)  
 Checklist:
 * Classes Piece, Board [public]
 * OOP Topics:
-* Associations
-* Encapsulation / Access Modifiers
+  * Associations
+  * Encapsulation / Access Modifiers
 * Data Structures Topics:
-* Matrix
+  * Matrix
 
-##### Worknote #4 - Placing pieces on the board
+##### Worknote #4 - Placing Pieces on the Board
 Commit hash: [0d1c4a1bcaa8bda05074481e90b0d7f5efcc6cd3](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/0d1c4a1bcaa8bda05074481e90b0d7f5efcc6cd3)  
 Checklist:
-* Method: Board.PlacePiece(piece, position)
+* Method: `Board.placePiece(piece, position)`
 * Classes: Rook, King [public]
-* Method: ChessMatch.InitialSetup
+* Method: `ChessMatch.initialSetup`
 * OOP Topics:
-* Inheritance
-* Overriding
-* Polymorphism (ToString)
+  * Inheritance
+  * Overriding
+  * Polymorphism (`toString()`)
 
-##### Worknote #5 - BoardException and defensive programming
+##### Worknote #5 - BoardException and Defensive Programming
 Commit hash: [d8a7657012d39672d32df4e34fad24d89e2abea4](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/d8a7657012d39672d32df4e34fad24d89e2abea4)  
 Checklist:
-* Class BoardException [public]
-* Methods: Board.PositionExists, Board.ThereIsAPiece
+* Class `BoardException` [public]
+* Methods: `Board.positionExists`, `Board.thereIsAPiece`
 * Implement defensive programming in Board methods
 * OOP Topics:
-* Exceptions
-* Constructors (a string must be informed to the exception)
+  * Exceptions
+  * Constructors (string argument for exceptions)
 
 ##### Worknote #6 - ChessException and ChessPosition
 Commit hash: [6c13881057b0055ddb4a49a00d12f2c99c03db39](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/6c13881057b0055ddb4a49a00d12f2c99c03db39)  
 Checklist:
-* Class ChessException [public]
-* Class ChessPosition [public]
-* Refactor ChessMatch.InitialSetup
+* Class `ChessException` [public]
+* Class `ChessPosition` [public]
+* Refactor `ChessMatch.initialSetup`
 * OOP Topics:
-* Exceptions
-* Encapsulation
-* Constructors (a string must be informed to the exception)
-* Overriding
-* Static members
-* Layers pattern
+  * Exceptions
+  * Encapsulation
+  * Constructors (string argument for exceptions)
+  * Overriding
+  * Static members
+  * Layers pattern
 
-##### Worknote #7 - Little improvement in board printing
+##### Worknote #7 - Minor Improvement in Board Printing
 Commit hash: [7f9d1202e6ce32a1d4c7b9f6c3c53c1280b84d4f](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/7f9d1202e6ce32a1d4c7b9f6c3c53c1280b84d4f)  
 Checklist:
-* Color in terminal:
-* Windows: Git Bash
-* Mac: Google "osx terminal color"
+* Terminal color settings:
+  * Windows: Git Bash
+  * Mac: Search for "OSX terminal color"
+* Place additional pieces on the board
+* Distinguish piece colors in `UI.printPiece` method
 
-Checklist:
-* Place more pieces on the board
-* Distinguish piece colors in UI.PrintPiece method
-
-##### Worknote #8 - Moving pieces
+##### Worknote #8 - Moving Pieces
 Commit hash: [a6d024ee0a9e8b91637362d9b909cb4e1236ea5e](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/a6d024ee0a9e8b91637362d9b909cb4e1236ea5e)  
 Checklist:
-* Method Board.RemovePiece
-* Method UI.ReadChessPosition
-* Method ChessMatch.PerformChessMove
-* Method ChessMatch.MakeMove
-* Method ChessMatch.ValidadeSourcePosition
-* Write basic logic on Program.cs
+* Method: `Board.removePiece`
+* Method: `UI.readChessPosition`
+* Methods: `ChessMatch.performChessMove`, `ChessMatch.makeMove`, `ChessMatch.validateSourcePosition`
+* Basic logic in `Program.cs`
 * OOP Topics:
-* Exceptions
-* Encapsulation
+  * Exceptions
+  * Encapsulation
 
-##### Worknote #9 - Handling exceptions and clearing screen
+##### Worknote #9 - Exception Handling and Screen Clearing
 Commit hash: [bde6e416f7a8fc49e544168efd848767fe99dd55](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/bde6e416f7a8fc49e544168efd848767fe99dd55)  
 Checklist:
-* ChessException
-* InputMismatchException
+* `ChessException`
+* `InputMismatchException`
 
-##### Worknote #10 - Possible moves of a piece
+##### Worknote #10 - Possible Moves of a Piece
 Commit hash: [20096e534e191ed0c206a6da0e5b52b92597db37](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/20096e534e191ed0c206a6da0e5b52b92597db37)  
 Checklist:
 * Methods in Piece:
-* PossibleMoves [abstract]
-* PossibleMove
-* IsThereAnyPossibleMove
-* Basic PossibleMove implementation for Rook and King
-* Update ChessMatch.ValidadeSourcePosition
+  * `possibleMoves` [abstract]
+  * `possibleMove`
+  * `isThereAnyPossibleMove`
+* Basic `possibleMove` implementation for Rook and King
+* Update `ChessMatch.validateSourcePosition`
 * OOP Topics:
-* Abstract method / class
-* Exceptions
+  * Abstract methods / classes
+  * Exceptions
 
-##### Worknote #11 - Implementing possible moves of Rook
+##### Worknote #11 - Implementing Rook's Possible Moves
 Commit hash: [1dfccd937e7183cbdb11deef5af3225a24796cbb](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/1dfccd937e7183cbdb11deef5af3225a24796cbb)  
 Checklist:
-* Method ChessPiece.IsThereOpponentPiece(position) [protected]
-* Implement Rook.PossibleMoves
-* Method ChessMatch.ValidateTargetPosition
+* Method `ChessPiece.isThereOpponentPiece(position)` [protected]
+* Implement `Rook.possibleMoves`
+* Method `ChessMatch.validateTargetPosition`
 * OOP Topics:
-* Polymorphism
-* Encapsulation / access modifiers [protected]
-* Exceptions
+  * Polymorphism
+  * Encapsulation / Access Modifiers [protected]
+  * Exceptions
 
-##### Worknote #12 - Printing possible moves
-Commit hash: [bd2f4447cea6e40af6739d4c35aa5cea1da520ba](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/bd2f4447cea6e40af6739d4c35aa5cea1da520ba)  
+##### Worknote #12 - Printing Possible Moves
+Commit hash: [bd2f4447cea6e40af6739d4c35aa5cea5916d155](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/bd2f4447cea6e40af6739d4c35aa5cea5916d155)  
 Checklist:
-* Method ChessMatch.PossibleMoves
-* Method UI.PrintBoard [overload]
-* Refactor main program logic
+* Implement `UI.printPossibleMoves` method
+* Correct implementation of `Rook.possibleMoves`
+
+##### Worknote #13 - Implementing King and Castling
+Commit hash: [9fc33ffb4fbe849fbb6daab9fd9b752da34b9c8b](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/9fc33ffb4fbe849fbb6daab9fd9b752da34b9c8b)  
+Checklist:
+* Class King [public]
+* Methods `possibleMoves`, `canMove`, `movePiece`
+* Methods `kingSideCastling`, `queenSideCastling`
+* Logic for castling and king move
 * OOP Topics:
-* Overloading
+  * Polymorphism
+  * Encapsulation / Access Modifiers
+  * Layer Pattern
 
-##### Worknote #13 - Implementing possible moves of King
-Commit hash: [ca678564d911f4a12907b6e4759998658bbd249b](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/ca678564d911f4a12907b6e4759998658bbd249b)  
+##### Worknote #14 - Implementing En Passant
+Commit hash: [c2e6c9894c652251f583b4e16db58749a6ed3e31](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/c2e6c9894c652251f583b4e16db58749a6ed3e31)  
 Checklist:
-* Method King.CanMove(position) [private]
-* Implement King.PossibleMoves
+* Implement `ChessMatch.enPassantMove`
+* Update logic in `ChessMatch`
 * OOP Topics:
-* Encapsulation
-* Polymorphism
+  * Encapsulation / Access Modifiers
 
-##### Worknote #14- Switching player each turn
-Commit hash: [185eb7af0e3186016cd4cd091ea0b0d4bed04417](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/185eb7af0e3186016cd4cd091ea0b0d4bed04417)  
+##### Worknote #15 - Implementing Pawn Promotion
+Commit hash: [08d36d5eec1fc8657d3ac51d2b378aa9ea519d86](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/08d36d5eec1fc8657d3ac51d2b378aa9ea519d86)  
 Checklist:
-* Class ChessMatch:
-* Properties Turn, CurrentPlayer [private set]
-* Method NextTurn [private]
-* Update PerformChessMove
-* Update ValidadeSourcePosition
-* Method UI.PrintMatch
+* Implement `ChessMatch.pawnPromotion`
+* Methods `ChessMatch.validatePromotionPosition`
+* `UI.readChessPieceType`
 * OOP Topics:
-* Encapsulation
-* Exceptions
+  * Encapsulation / Access Modifiers
+  * Inheritance
 
-##### Worknote #15 - Handling captured pieces
-Commit hash: [d096a70d4a752ddcdce1c49bb280b3526226be18](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/d096a70d4a752ddcdce1c49bb280b3526226be18)  
-Checklist:
-* Method UI.PrintCapturedPieces
-* Update UI.PrintMatch
-* Update Program logic
-* Lists in ChessMatch: _piecesOnTheBoard, _capturedPieces
-* Update constructor
-* Update PlaceNewPiece
-* Update MakeMove
-* OOP Topics:
-* Encapsulation
-* Constructors
-* Data Structures Topics:
-* List
+## Special Moves:
 
-##### Worknote #16 - Check logic
-Commit hash: [1660c7e0ae73a7209e1f8d7718eac83ad11a4d1d](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/1660c7e0ae73a7209e1f8d7718eac83ad11a4d1d)  
-Rules:
-* Check means your king is under threat by at least one opponent piece
-* You can't put yourself in check
+### Castling:
+**Short Castling**: The king moves two squares towards the rook, and the rook moves to the square next to the king.  
+**Long Castling**: The king moves two squares towards the rook, and the rook moves to the square next to the king.
 
-Checklist:
-* Property ChessPiece.ChessPosition [get]
-* Class ChessMatch:
-* Method UndoMove
-* Property Check [private set]
-* Method Opponent [private]
-* Method King(color) [private]
-* Method TestCheck
-* Update PerformChessMove
-* Update UI.PrintMatch
+### En Passant:
+A special move for pawns where they capture an opponent's pawn that moved two squares forward from its initial position.
 
-##### Worknote #17 - Checkmate logic
-Commit hash: [1660c7e0ae73a7209e1f8d7718eac83ad11a4d1d](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/1660c7e0ae73a7209e1f8d7718eac83ad11a4d1d)  
-Checklist:
-* Class ChessMatch:
-* Property Checkmate [private set]
-* Method TestCheckmate [private]
-* Update PerformChessMove
-* Update UI.PrintMatch
-* Update Program logic
+### Promotion:
+When a pawn reaches the last rank, it is promoted to any other piece (usually a queen).
 
-##### Worknote #18 - Piece move count
-Commit hash: [c5427cb3b76310b650b7671758576ba19641c46e](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/c5427cb3b76310b650b7671758576ba19641c46e)  
-Checklist:
-* Class ChessPiece:
-* Property MoveCount [private set]
-* Method IncreaseMoveCount [internal]
-* Method DecreaseMoveCount [internal]
-* Class ChessMatch:
-* Update MakeMove
-* Update UndoMove
-* OOP Topics:
-* Encapsulation
-
-##### Worknote #19 - Pawn
-Commit hash: [11432d0f6d2544aba15d4b8394069f3ac2aca8a9](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/11432d0f6d2544aba15d4b8394069f3ac2aca8a9)  
-Checklist:
-* Class Pawn
-* Update ChessMatch.InitialSetup
-* OOP Topics:
-* Encapsulation
-* Inheritance
-* Polymorphism
-
-##### Worknote #20 - Bishop
-Commit hash: [1e17373971fc627ce674b407213cb33e3ae7dac3](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/1e17373971fc627ce674b407213cb33e3ae7dac3)  
-Checklist:
-* Class Bishop
-* Update ChessMatch.InitialSetup
-* OOP Topics:
-* Encapsulation
-* Inheritance
-* Polymorphism
-
-##### Worknote #21 - Knight
-Commit hash: [df1edadd3b1841e94a23884ab898383c2823b25c](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/df1edadd3b1841e94a23884ab898383c2823b25c)  
-Checklist:
-* Class Knight
-* Update ChessMatch.InitialSetup
-* OOP Topics:
-* Encapsulation
-* Inheritance
-* Polymorphism
-
-##### Worknote #22 - Queen
-Commit hash: [100daa2ea721f74f0fe72207a0c08d26a4e73e88](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/100daa2ea721f74f0fe72207a0c08d26a4e73e88)  
-Checklist:
-* Class Queen
-* Update ChessMatch.InitialSetup
-* OOP Topics:
-* Encapsulation
-* Inheritance
-* Polymorphism
-
-# Special Moves
-
-##### Worknote #23 - Castling
-Commit hash: [258d28376305b6dc32e224d796043b131a853818](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/258d28376305b6dc32e224d796043b131a853818)  
-Checklist:
-* Update King
-* Update ChessMatch.MakeMove
-* Update ChessMatch.UndoMove
-
-##### Worknote #24 - En Passant
-Commit hash: [9b873ae7f596e179b2e752605d00db93055ac60a](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/9b873ae7f596e179b2e752605d00db93055ac60a)  
-Checklist:
-* Register a pawn which can be captured by en passant on next turn
-* Property ChessMatch.EnPassantVulnerable
-* Update ChessMatch.PerformChessMove
-* Update Pawn.PossibleMoves
-* Update ChessMatch.MakeMove
-* Update ChessMatch.UndoMove
-* Update ChessMatch.InitialSetup
-
-##### Worknote #25 - Promotion
-Commit hash: [be95d0991af4cdc5a41bfe0cedc64c9e208a9175](https://github.com/MaurosMJ/curso-javacompletoProjXadrez/commit/be95d0991af4cdc5a41bfe0cedc64c9e208a9175)  
-Checklist:
-* Property ChessMatch.Promoted
-* Update ChessMatch.PerformChessMove
-* Method ChessMatch.ReplacePromotedPiece
-* Update Program logic
-
-# Credits:
-[@acenelio (Nelio Alves)](https://github.com/acenelio)  
-[@Me :)](https://github.com/MaurosMJ)
+## Credits:
+- This repository is maintained by MaurosMJ. The Projects are based on the 'Java COMPLETO Programação Orientada a Objetos + Projetos' course.
